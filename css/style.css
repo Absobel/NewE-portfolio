@@ -1,0 +1,20 @@
+p {
+    color:red;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color:blue;
+}
+
+.text {
+    color: green;
+}
+
+#Img {
+    width: 20%;
+    height: 20%;
+}
