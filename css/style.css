@@ -1,20 +1,23 @@
-p {
-    color:red;
+/* Permet de séparer nav-bar et body */
+.container {
+    
+}  
+
+.container.nav {
+    width: 200px;
+    height: 98vh;     /* Pour avoir 100% de la hauteur de la fenêtre */
+    background-color: #f1f1f1;
+    border: #1a5538;
+    border-style: solid;
+    border-width: 3px;
+}
+.container.body {
+    width: calc(100%-200px);
+    margin-left: 220px;
+    margin-top: -100vh;
 }
 
-body {
-    background-color: lightgray;
-}
 
-h1 {
-    color:blue;
-}
 
-.text {
-    color: green;
-}
+/* Le reste */
 
-#Img {
-    width: 20%;
-    height: 20%;
-}
